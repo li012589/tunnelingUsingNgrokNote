@@ -111,3 +111,10 @@ path-to/ngrok -log=ngrok.log -config=ngrok.yml start ss
 ```
 
 Note that start from ngrok2, you may need _screen_ or _tmux_ to run it in background.
+
+## Reference
+
+1. http://www.wuliaole.com/post/make_use_of_ngrok_to_penetrate_intranet/
+2. https://xingtingyang.com/866.html
+3. http://les1ie.com/2017/06/09/%E5%86%85%E7%BD%91%E7%A9%BF%E9%80%8F%E7%AC%94%E8%AE%B0/
+4. http://linfuyan.com/ubuntu-ngrok/
