@@ -91,7 +91,7 @@ First configure shadowsocks at your server as mentioned at my other repos. Here 
 Then write the following config files for `ngrok` , and save it as `ngrok.yml`.
 
 ```bash
-server_addr: "ngrok.v2nobel.com:6062"
+server_addr: "ngrok.yourdomain.com:6062"
 trust_host_root_certs: false
 tunnels:
 	ss:
@@ -107,7 +107,7 @@ tunnels:
 Then 
 
 ```bash
-path-to/ngrok -log=ngrok.log -config=ngrok.yml start ss
+path-to/ngrok -log=stdout -config=ngrok.yml start ss >ngrok.log &
 ```
 
 Note that start from ngrok2, you may need _screen_ or _tmux_ to run it in background.
